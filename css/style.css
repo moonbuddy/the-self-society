@@ -1,6 +1,10 @@
 /* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&family=Vidaloka&display=swap');
 
+.html
+    {
+        background-color: black;
+    }
 .body
     {
         font-family: 'Urbanist', sans-serif;
@@ -19,8 +23,7 @@
 .jumbotron-welcome
     {
         background: rgb(224,0,255);
-        background: linear-gradient(140deg, rgba(224,0,255,1) 0%, rgba(255,0,200,1) 50%, rgba(255,106,127,1) 93%);
-        font-family: 'Urbanist', sans-serif;
+        background: linear-gradient(140deg, rgba(224,0,255,0.4962359943977591) 0%, rgba(255,0,200,0.4990371148459384) 50%, rgba(255,106,127,0.4962359943977591) 93%);
     }
 
 .quoteotdheader
