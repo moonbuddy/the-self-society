@@ -1,0 +1,39 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&family=Vidaloka&display=swap');
+
+.body
+    {
+        font-family: 'Urbanist', sans-serif;
+    }
+
+.nav-item
+    {
+        font-family: 'Vidaloka', serif;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: black;
+    }
+
+.jumbotron-welcome
+    {
+        background: rgb(224,0,255);
+        background: linear-gradient(140deg, rgba(224,0,255,1) 0%, rgba(255,0,200,1) 50%, rgba(255,106,127,1) 93%);
+        font-family: 'Urbanist', sans-serif;
+    }
+
+.quoteotdheader
+    {
+        font-family: 'Vidaloka', serif;
+    }
+
+.affirmationotdheader
+    {
+        font-family: 'Meow Script', cursive;
+    }
+
+.recentblog-fluid
+    {
+        background-color: gray
+    }
