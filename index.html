@@ -19,20 +19,19 @@
     <title>The Self Society</title>
 </head>
 
-<body class="bg-dark">
+<body>
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-        <div class="container-fluid px-5 mx-5">
-            <a class="navbar-brand" href="./index.html"><img src="./img/abbrnavbarlogo.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Nav Menu -->
+    <nav class="navbar navbar-dark fixed-top navi" aria-label="Hamburger Menu">
+        <div class="container"> 
+            <a href="./index.html" class="navbar-brand"><img src="./img/abbrnavbarlogo.png"></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hamburgermenu" aria-controls="hamburgermenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+            <div class="navbar-collapse collapse" id="hamburgermenu">
+                <ul class="navbar-nav mb-2 menu-right">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button"
@@ -45,39 +44,47 @@
                             <li><a class="dropdown-item" href="#">Open When...</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Social</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Social
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Discord Social</a></li>
+                            <li><a class="dropdown-item" href="#">Events</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                </ul>
+                </u1>
             </div>
         </div>
     </nav>
-    <!-- End Nav Bar -->
 
     <!-- Welcome Jumbotron -->
     <div class="jumbotron-welcome pt-5 pb-4 bg-light text-center">
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
             <img src="./img/jumbotronlogo.png" class="img-fluid" alt="Responsive image jumbotron logo"><br>
             <br>
-            <h3 class="display-7">It's time everyone knows<br></h3>
-            <h3 class="display-6"><b><I>SELF-CARE IS NOT SELFISH.</I></b></h3>
+            <h4 class="display-8">It's time everyone learns<br></h4>
+            <h3 class="display-7"><b><I>SELF-CARE IS NOT SELFISH.</I></b></h3>
             <br>
             <hr>
             <br>
-            <h4 display-8><i><b>Pssssst...</b></i>Hey there! Are you new?</h4>
+            <h6 display-8><i><b>Pssssst...</b></i>Hey there! Are you new?</h4>
             <p class="lead">
-                <a class="btn btn-outline-dark btn-lg mt-3" href="Jumbo action link" role="button">Start Here</a>
+                <a class="btn btn-dark btn-md mt-3" href="Jumbo action link" role="button">Start Here</a>
             </p>
         </div>
     </div>
     <!-- End Welcome Jumbotron -->
 
     <!-- Quote of the Day Jumbotron -->
-    <div class="jumbotron m-5 py-5 text-center bg-light">
-        <h1 class="quoteotdheader display-5">"First know yourself, then know others."</h1>
-        <h2 class="lead pt-3 display-7">&hearts; Gichin Funakoshi</h3>
+    <div class="jumbotron jumbootd m-5 p-5 text-center rounded">
+        <h3>Daily Quote</h3>
+        <h1 class="quoteotdheader display-5 py-3">"First know yourself, then know others."</h1>
+        <h5 class="fw-light">- Gichin Funakoshi -</h5>
     </div>
     <!-- End Quote of the Day Jumbotron -->
 
@@ -106,51 +113,172 @@
     <!-- End Carousel -->
 
     <!-- Affirmation of the Day Jumbotron -->
-    <div class="jumbotron m-5 pt-5 pb-4 text-center bg-light">
-        <h2 class="lead pb-3 display-7">&hearts; Daily Affirmation &hearts;</h2>
+    <div class="jumbotron jumbootd m-5 p-5 text-center rounded">
+        <h3 class="pb-3">Daily Affirmation</h3>
         <h1 class="affirmationotdheader display-4">I shine brightest when I am my authentic self.</h1>
     </div>
     <!-- End Quote of the Day Jumbotron -->
 
     <!-- Recent Blog Posts -->
-    <div class="recentblog-fluid">
-        <div class="container p-5">
-            <div class="row">
-                <div class="col-7 text-start my-auto">
-                    <h1 class="display-5 fw-bold"><b>Favorite Journaling Apps</b></h1>
-                    <br>
-                    <h4 class="dipslay-8 fw-light">I tried out a bunch of apps for two weeks and these were my favorites.</h3> 
-                </div>
-                <div class="col-5 text-end py-5"><img class="img-fluid" src="./img/favapps.png"></div>
+    <div class="recentblog-fluid pt-2 bg-light">
+        <div class="container py-5">
+            <div class="row text-start">
+                <h1 class="recentblogs mt-2 pb-3">Recent Posts</h1>
             </div>
-            <div class="row">
-                <div class="col-5 text-start py-5"><img class="img-fluid" src="./img/favapps.png"></div>
-                <div class="col-7 text-end my-auto">
-                    <h1 class="display-5 fw-bold"><b>Favorite Journaling Apps</b></h1>
-                    <br>
-                    <h4 class="dipslay-8 fw-light">I tried out a bunch of apps for two weeks and these were my favorites.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-7 text-start my-auto">
-                    <h1 class="display-5 fw-bold"><b>Favorite Journaling Apps</b></h1>
-                    <br>
-                    <h4 class="dipslay-8 fw-light">I tried out a bunch of apps for two weeks and these were my favorites.</h3> 
-                </div>
-                <div class="col-5 text-end py-5"><img class="img-fluid" src="./img/favapps.png"></div>
-            </div>
-        </div>
+            <div class="row justify-content-evenly">
+                <div class="card pt-2" style="width: 15rem;">
+                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card pt-2" style="width: 15rem;">
+                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card pt-2" style="width: 15rem;">
+                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card pt-2" style="width: 15rem;">
+                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
     </div>
     
     <!-- End Recent Blog Posts -->
 
     <!-- Journal Prompt of the Week -->
-    <div class="jumbotron m-5 py-5 text-center bg-light">
-        <h2 class="lead pb-3 display-7">&hearts; Prompt of the Week &hearts;</h2>
+    <div class="jumbotron jumbootd m-5 p-5 text-center rounded">
+        <h3 class="pb-3">Daily Prompt</h3>
         <h1 class="promptotdheader display-6">Think about what you <i>don't</i> know about yourself. 
         Write about what you don't know and how you can go about discovering it. </h1>
     </div>    
+    <!-- End Journal Prompt of the Week -->
 
+    <!-- Contact Form -->
+    <div class="contactformsection container-fluid bg-light py-5">
+        <div class="row text-center mt-0">
+            <h1>Want to get in touch with us?</h1>
+            <h3 class="fw-light">Reach out below!</h3>
+        </div>
+    <div class="contactform container py-4 mt-4 bg-light rounded"> 
+
+        <!-- Name input -->
+        <div class="mb-3">
+        <label class="form-label" for="name">Name</label>
+        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+        </div>
+
+        <!-- Email address input -->
+        <div class="mb-3">
+        <label class="form-label" for="emailAddress">Email Address</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+        </div>
+
+        <!-- Message input -->
+        <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+        </div>
+
+        <!-- Form submit button -->
+        <div class="d-grid">
+        <button class="btn btn-dark btn-lg disabled" id="submitButton" type="submit">Submit</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://moonbuddy.github.io/moons-landing">Your Buddy Moon</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 
         <!-- JS Link -->
         <script src="./js/script.js"></script>

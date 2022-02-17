@@ -1,23 +1,28 @@
 /* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&family=Vidaloka&display=swap');
-
-.html
-    {
-        background-color: black;
-    }
 .body
     {
         font-family: 'Urbanist', sans-serif;
     }
 
+.navi
+    {
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25674019607843135) 50%, rgba(255,255,255,0.4962359943977591) 100%);
+    }
 .nav-item
     {
-        font-family: 'Vidaloka', serif;
-        font-size: 1rem;
-        font-weight: bold;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 1.25rem;
         padding-left: 20px;
         padding-right: 20px;
         color: black;
+    }
+
+.menu-right
+    {
+        background-color: rgba(0, 0, 0, 0.69)
+        ;
     }
 
 .jumbotron-welcome
@@ -26,7 +31,11 @@
         background: linear-gradient(140deg, rgba(224,0,255,0.4962359943977591) 0%, rgba(255,0,200,0.4990371148459384) 50%, rgba(255,106,127,0.4962359943977591) 93%);
     }
 
-.quoteotdheader
+.jumbootd
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.quoteotdheader, .recentblogs
     {
         font-family: 'Vidaloka', serif;
     }
@@ -38,5 +47,22 @@
 
 .recentblog-fluid
     {
-        background-color: gray
+        background: rgb(3,245,167);
+        background: linear-gradient(137deg, rgba(3,245,167,0.5564600840336135) 0%, rgba(0,255,229,0.5088410364145659) 25%, rgba(0,92,221,0.5116421568627452) 55%, rgba(194,0,255,0.53125) 84%);
+    }
+
+.card
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.contactformsection
+    {
+        background: rgb(224,0,255);
+        background: linear-gradient(140deg, rgba(224,0,255,0.4962359943977591) 0%, rgba(255,0,200,0.4990371148459384) 50%, rgba(255,106,127,0.4962359943977591) 93%);
+    }
+
+.contactform
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
