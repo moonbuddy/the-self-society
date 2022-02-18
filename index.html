@@ -19,14 +19,15 @@
 </head>
 
 <body>
-
+<div class="container-fluid">
     <!-- Nav Menu -->
-    <nav class="navbar navbar-dark fixed-top navi" aria-label="Hamburger Menu">
-        <div class="container"> 
-            <a href="./index.html" class="navbar-brand"><img src="./img/abbrnavbarlogo.png"></a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hamburgermenu" aria-controls="hamburgermenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="row">
+        <nav class="navbar navbar-dark fixed-top navi" aria-label="Hamburger Menu">
+            <div class="container"> 
+                <a href="./index.html" class="navbar-brand"><img src="./img/abbrnavbarlogo.png"></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hamburgermenu" aria-controls="hamburgermenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="navbar-collapse collapse" id="hamburgermenu">
                 <ul class="navbar-nav mb-2 menu-right">
                     <li class="nav-item">
@@ -58,158 +59,172 @@
                     </li>
                 </u1>
             </div>
-        </div>
-    </nav>
-
+            </div>
+        </nav>
+    </div>
     <!-- Welcome Jumbotron -->
-    <div class="jumbotron-welcome pt-5 pb-4 bg-light text-center">
-        <div class="container-fluid mt-4">
-            <img src="./img/jumbotronlogo.png" class="img-fluid" alt="Responsive image jumbotron logo"><br>
-            <br>
-            <h4 class="display-8 fw-light">It's time everyone learns<br></h4>
-            <h3 class="display-7"><b><I>SELF-CARE IS NOT SELFISH.</I></b></h3>
-            <br>
-            <hr>
-            <br>
-            <h6 class="display-8 fw-light"><i><b>Pssssst...</b></i>Hey there! Are you new?</h4>
-            <p class="lead">
-                <a class="btn btn-dark btn-md mt-3" href="Jumbo action link" role="button">Start Here</a>
-            </p>
+    <div class="row jumbotron-welcome  pt-5 pb-4">
+        <div class="col text-center">
+            <div class="container-fluid mt-4">
+                <img src="./img/jumbotronlogo.png" class="img-fluid" alt="Responsive image jumbotron logo"><br>
+                <br>
+                <h4 class="display-8 fw-light">It's time everyone learns<br></h4>
+                <h3 class="display-7"><b><I>SELF-CARE IS NOT SELFISH.</I></b></h3>
+                <br>
+                <hr>
+                <br>
+                <h6 class="display-8 fw-light">
+                    <i><b>Pssssst...</b></i>Hey there! Are you new?
+                </h6>
+                    <a class="btn btn-dark btn-md mt-3 lead" href="Jumbo action link" role="button">Start Here</a>
+            </div>
         </div>
     </div>
     <!-- End Welcome Jumbotron -->
-
     <!-- Quote of the Day Jumbotron -->
-    <div class="jumbotron jumbootd m-5 p-5 text-center rounded">
-        <h3>Daily Quote</h3>
-        <h1 class="quoteotdheader display-5 py-3">"First know yourself, then know others."</h1>
-        <h5 class="fw-light">- Gichin Funakoshi -</h5>
+    <div class="row jumbotron jumbootd m-5 p-5">
+        <div class="col text-center rounded">
+            <h3>Daily Quote</h3>
+            <h1 class="quoteotdheader display-5 py-3">"First know yourself, then know others."</h1>
+            <h5 class="fw-light">- Gichin Funakoshi -</h5>
+        </div>
     </div>
     <!-- End Quote of the Day Jumbotron -->
-
     <!-- Site Features Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/pexels-andrea-piacquadio-774866.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <a class="btn btn-dark btn-md mt-3" href="Jumbo action link" role="button">Start Here</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/austin-mabe-i7x84It0L-Y-unsplash.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pexels-madison-inouye-1684877.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/pexels-andrea-piacquadio-774866.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                    <a class="btn btn-dark btn-md mt-3" href="Jumbo action link" role="button">Start Here</a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/austin-mabe-i7x84It0L-Y-unsplash.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/pexels-madison-inouye-1684877.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
     <!-- End Carousel -->
-
     <!-- Affirmation of the Day Jumbotron -->
-    <div class="jumbotron jumbootd m-5 p-5 text-center rounded">
-        <h3 class="pb-3">Daily Affirmation</h3>
-        <h1 class="affirmationotdheader display-4">I shine brightest when I am my authentic self.</h1>
+    <div class="row jumbotron jumbootd m-5 p-5">
+        <div class="col text-center rounded">
+            <div class="container">
+                <h3 class="pb-3">Daily Affirmation</h3>
+                <h1 class="affirmationotdheader display-4">I shine brightest when I am my authentic self.</h1>
+            </div>
+        </div>
     </div>
     <!-- End Quote of the Day Jumbotron -->
-
     <!-- Recent Blog Posts -->
-    <div class="recentblog-fluid pt-2 bg-light">
-        <div class="container py-5">
-            <div class="row text-start">
-                <h1 class="recentblogs mt-2 pb-3">Recent Posts</h1>
+    <div class="row recentblog-fluid  bg-light">
+        <div class="col py-5">
+                <h1 class="recentblogs mt-2 mx-5 pb-3">Recent Posts</h1>
+        </div>
+    </div>
+    <div class="row justify-content-evenly p-5">
+        <div class="col-lg-2 col-md-3 col-sm-8 mt-5">
+            <div class="card pt-2">
+                <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-dark btn-sm">Read more</a>
+                </div>
             </div>
-            <div class="row justify-content-evenly py-4">
-                <div class="card pt-2" style="width: 15rem;">
-                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-8 mt-5">
+            <div class="card pt-2">
+                <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-dark btn-sm">Read more</a>
-                    </div>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="card pt-2" style="width: 15rem;">
-                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-8 mt-5">
+            <div class="card pt-2">
+                <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="card pt-2" style="width: 15rem;">
-                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-8 mt-5">
+            <div class="card pt-2">
+                <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card pt-2" style="width: 15rem;">
-                    <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
     </div>
-    
     <!-- End Recent Blog Posts -->
-
     <!-- Journal Prompt of the Week -->
-    <div class="jumbotron jumbootd m-5 p-5 text-center rounded">
-        <h3 class="pb-3">Daily Prompt</h3>
-        <h1 class="promptotdheader display-6">Think about what you <i>don't</i> know about yourself. 
-        Write about what you don't know and how you can go about discovering it. </h1>
-    </div>    
+    <div class="row jumbotron jumbootd m-5 p-5 ">
+        <div class="col text-center rounded">
+            <div class="container">
+                <h3 class="pb-3">Daily Prompt</h3>
+                <h1 class="promptotdheader display-6">Think about what you 
+                    <i>don't</i> know about yourself. Write about what you don't know and how you can go about discovering it.
+                </h1>
+            </div>  
+        </div>
+    </div>  
     <!-- End Journal Prompt of the Week -->
-
     <!-- Contact Form -->
     <div class="contactformsection container-fluid bg-light py-5">
         <div class="row text-center mt-0">
             <h1>Looking to get in touch?</h1>
-            <div class="col left-col mx-auto">
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
                 <div class="container text-center mt-2">
                     <h3 class="fw-light">Reach out below!</h3>
-                    <div class="contactform container py-4 my-4 bg-light rounded"> 
-
                     <!-- Name input -->
-                        <div class="mb-3">
-                            <label class="form-label" for="name">Name</label>
-                            <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-                        </div>
-
+                    <div class="mb-3">
+                        <label class="form-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                     <!-- Email address input -->
                         <div class="mb-3">
                             <label class="form-label" for="emailAddress">E-mail Address</label>
@@ -217,14 +232,12 @@
                             <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
                         </div>
-
                     <!-- Message input -->
                         <div class="mb-3">
                             <label class="form-label" for="message">Message</label>
                             <textarea class="form-control" id="message" type="text" placeholder="Type your message here..." style="height: 10rem;" data-sb-validations="required"></textarea>
                             <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                         </div>
-
                     <!-- Form submit button -->
                         <div class="d-grid">
                             <button class="btn btn-dark btn-lg disabled" id="submitButton" type="submit">Submit</button>
@@ -232,95 +245,74 @@
                     </div>
                 </div>
             </div>
-            <div class="col right-col text-center mt-2">
+            <div class="col-md-6 col-sm-12 text-center mt-2">
                 <h3 class="fw-light">Or...come hang out!</h3>
-                <div class="container-fluid text-center my-auto door-center">
+                <div class="container text-center my-auto door-center">
                     <div class="door">
                         <div class="door-front">
                             <div class="knob"></div>
                         </div>
-                        <div class="door-back">
-                            <a href="https://www.google.com">
+                        <a href="https://www.google.com">
+                            <div class="door-back">
                                 <img src="./img/abbrnavbarlogo.png">
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
     </div>
-    </div>
-</div>
 
     <!-- Footer -->
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
-        <div class="container-fluid pt-4">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <!-- Github -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
+    <div class="container-fluid footer">
+        <div class="row text-center text-white" style="background-color: #f1f1f1;">
+            <!-- Grid container -->
+            <div class="col">
+              <!-- Section: Social media -->
+                <div class="container pt-4 mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright:
-          <a class="text-dark" href="https://moonbuddy.github.io/moons-landing">Your Buddy Moon</a>
+        <div class="row">
+            <!-- Copyright -->
+            <div class="col text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-dark" href="https://moonbuddy.github.io/moons-landing">Your Buddy Moon</a>
+              </div>
+              <!-- Copyright -->
         </div>
-        <!-- Copyright -->
-    </footer>
+    </div>
+
+
+
+
+</div>
 
     <!-- JS Link -->
         <script src="./js/script.js"></script>

@@ -4,7 +4,9 @@
     {
         font-family: 'Urbanist', sans-serif;
     }
-
+.container-fluid{
+    padding:0;
+}
 .navi
     {
         background: rgb(255,255,255);
@@ -73,7 +75,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
+        overflow: visible;
         padding: 50px;
     }
 
@@ -150,7 +152,4 @@
     outline: 10px solid #edf2f4;
   }
 
-  .left-col
-    {
-        z-index: -1;
-    }
+  
