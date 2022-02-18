@@ -64,15 +64,15 @@
 
     <!-- Welcome Jumbotron -->
     <div class="jumbotron-welcome pt-5 pb-4 bg-light text-center">
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-4">
             <img src="./img/jumbotronlogo.png" class="img-fluid" alt="Responsive image jumbotron logo"><br>
             <br>
-            <h4 class="display-8">It's time everyone learns<br></h4>
+            <h4 class="display-8 fw-light">It's time everyone learns<br></h4>
             <h3 class="display-7"><b><I>SELF-CARE IS NOT SELFISH.</I></b></h3>
             <br>
             <hr>
             <br>
-            <h6 display-8><i><b>Pssssst...</b></i>Hey there! Are you new?</h4>
+            <h6 class="display-8 fw-light"><i><b>Pssssst...</b></i>Hey there! Are you new?</h4>
             <p class="lead">
                 <a class="btn btn-dark btn-md mt-3" href="Jumbo action link" role="button">Start Here</a>
             </p>
@@ -89,23 +89,46 @@
     <!-- End Quote of the Day Jumbotron -->
 
     <!-- Monthly Highlight Carousel -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./img/pexels-andrea-piacquadio-774866.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <a class="btn btn-dark btn-md mt-3" href="Jumbo action link" role="button">Start Here</a>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="./img/austin-mabe-i7x84It0L-Y-unsplash.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="./img/pexels-madison-inouye-1684877.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -125,7 +148,7 @@
             <div class="row text-start">
                 <h1 class="recentblogs mt-2 pb-3">Recent Posts</h1>
             </div>
-            <div class="row justify-content-evenly">
+            <div class="row justify-content-evenly py-4">
                 <div class="card pt-2" style="width: 15rem;">
                     <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -175,8 +198,8 @@
     <!-- Contact Form -->
     <div class="contactformsection container-fluid bg-light py-5">
         <div class="row text-center mt-0">
-            <h1>Want to get in touch with us?</h1>
-            <h3 class="fw-light">Reach out below!</h3>
+            <h1>Looking to get in touch?</h1>
+            <h2 class="fw-light">Reach out below!</h2>
         </div>
     <div class="contactform container py-4 mt-4 bg-light rounded"> 
 
@@ -189,8 +212,8 @@
 
         <!-- Email address input -->
         <div class="mb-3">
-        <label class="form-label" for="emailAddress">Email Address</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+        <label class="form-label" for="emailAddress">E-mail Address</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="E-mail Address" data-sb-validations="required, email" />
         <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
         <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
         </div>
@@ -198,7 +221,7 @@
         <!-- Message input -->
         <div class="mb-3">
         <label class="form-label" for="message">Message</label>
-        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+        <textarea class="form-control" id="message" type="text" placeholder="Type your message here..." style="height: 10rem;" data-sb-validations="required"></textarea>
         <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
         </div>
 
