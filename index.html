@@ -15,7 +15,6 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="./css/style.css">
-
     <title>The Self Society</title>
 </head>
 
@@ -88,7 +87,7 @@
     </div>
     <!-- End Quote of the Day Jumbotron -->
 
-    <!-- Monthly Highlight Carousel -->
+    <!-- Site Features Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -152,37 +151,37 @@
                 <div class="card pt-2" style="width: 15rem;">
                     <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-dark btn-sm">Read more</a>
                     </div>
-                  </div>
-                  <div class="card pt-2" style="width: 15rem;">
+                </div>
+                <div class="card pt-2" style="width: 15rem;">
                     <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
-                  <div class="card pt-2" style="width: 15rem;">
+                </div>
+                <div class="card pt-2" style="width: 15rem;">
                     <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
-                  <div class="card pt-2" style="width: 15rem;">
+                </div>
+                <div class="card pt-2" style="width: 15rem;">
                     <img src="./img/fav-app-img.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
-                  </div>
-                  </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     <!-- End Recent Blog Posts -->
@@ -199,43 +198,63 @@
     <div class="contactformsection container-fluid bg-light py-5">
         <div class="row text-center mt-0">
             <h1>Looking to get in touch?</h1>
-            <h2 class="fw-light">Reach out below!</h2>
-        </div>
-    <div class="contactform container py-4 mt-4 bg-light rounded"> 
+            <div class="col left-col mx-auto">
+                <div class="container text-center mt-2">
+                    <h3 class="fw-light">Reach out below!</h3>
+                    <div class="contactform container py-4 my-4 bg-light rounded"> 
 
-        <!-- Name input -->
-        <div class="mb-3">
-        <label class="form-label" for="name">Name</label>
-        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-        </div>
+                    <!-- Name input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                        </div>
 
-        <!-- Email address input -->
-        <div class="mb-3">
-        <label class="form-label" for="emailAddress">E-mail Address</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="E-mail Address" data-sb-validations="required, email" />
-        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-        </div>
+                    <!-- Email address input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="emailAddress">E-mail Address</label>
+                            <input class="form-control" id="emailAddress" type="email" placeholder="E-mail Address" data-sb-validations="required, email" />
+                            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                        </div>
 
-        <!-- Message input -->
-        <div class="mb-3">
-        <label class="form-label" for="message">Message</label>
-        <textarea class="form-control" id="message" type="text" placeholder="Type your message here..." style="height: 10rem;" data-sb-validations="required"></textarea>
-        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-        </div>
+                    <!-- Message input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-control" id="message" type="text" placeholder="Type your message here..." style="height: 10rem;" data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                        </div>
 
-        <!-- Form submit button -->
-        <div class="d-grid">
-        <button class="btn btn-dark btn-lg disabled" id="submitButton" type="submit">Submit</button>
-        </div>
+                    <!-- Form submit button -->
+                        <div class="d-grid">
+                            <button class="btn btn-dark btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col right-col text-center mt-2">
+                <h3 class="fw-light">Or...come hang out!</h3>
+                <div class="container-fluid text-center my-auto door-center">
+                    <div class="door">
+                        <div class="door-front">
+                            <div class="knob"></div>
+                        </div>
+                        <div class="door-back">
+                            <a href="https://www.google.com">
+                                <img src="./img/abbrnavbarlogo.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
     </div>
+</div>
 
     <!-- Footer -->
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <!-- Grid container -->
-        <div class="container pt-4">
+        <div class="container-fluid pt-4">
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
@@ -301,12 +320,12 @@
           <a class="text-dark" href="https://moonbuddy.github.io/moons-landing">Your Buddy Moon</a>
         </div>
         <!-- Copyright -->
-      </footer>
+    </footer>
 
-        <!-- JS Link -->
+    <!-- JS Link -->
         <script src="./js/script.js"></script>
 
-        <!-- Bootstrap JS Link -->
+    <!-- Bootstrap JS Link -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
